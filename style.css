@@ -172,3 +172,36 @@ button:hover {
     padding: 1rem;
 }
 
+@media only screen and (max-width: 850px) {
+    .text-50 {
+        width: 100%;
+        border: none;
+    }
+
+    .section {
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+    
+    }
+
+    .img-section {
+        width: 100%;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .skills {
+        flex-direction: column;
+    }
+
+    .flex {
+        flex-direction: column;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
+}
