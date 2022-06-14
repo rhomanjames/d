@@ -193,6 +193,11 @@ button:hover {
     border: rgba(222, 222, 222, 1) 0px solid;
     }
 
+    header {
+        position: sticky;
+        top: 0;
+    }
+
     .section, .section-cs {
         display: flex;
         flex-direction: column;
@@ -200,6 +205,10 @@ button:hover {
         padding: 1rem;
         border: none;
     
+    }
+
+    .hide-mobile {
+        display: none;
     }
 
     .img-section {
@@ -227,6 +236,6 @@ button:hover {
     }
 
     .logo {
-        display: none;
+        font-size: .75rem;
     }
 }
