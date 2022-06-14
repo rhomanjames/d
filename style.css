@@ -45,16 +45,23 @@ a{
 
 }
 
+.img-50 {
+    height: 50%;
+    width: auto;
+}
+
 
 .section {
-    height: 80vh;
-    padding: 3rem;
+    height: fit-content;
+    padding: 1rem;
+    padding-bottom: 1rem;
+    padding-top: .5rem;
     align-items: center;
     display: flex;
 }
 
 .section-cs {
-    height: 80vh;
+    height: fit-content;
     padding: 3rem;
     align-items: center;
     display: flex;
@@ -123,7 +130,7 @@ h2 {
 }
 
 img {
-    width: 100%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -173,15 +180,25 @@ button:hover {
 }
 
 @media only screen and (max-width: 850px) {
+
+    * {
+        overflow-x: hidden;
+    }
     .text-50 {
         width: 100%;
         border: none;
+        -webkit-box-shadow: 0px;
+    -moz-box-shadow: 0px;
+    box-shadow: 0px;
+    border: rgba(222, 222, 222, 1) 0px solid;
     }
 
-    .section {
+    .section, .section-cs {
         display: flex;
         flex-direction: column;
         height: fit-content;
+        padding: 1rem;
+        border: none;
     
     }
 
@@ -191,6 +208,10 @@ button:hover {
 
     img {
         width: 100%;
+    }
+
+    ul li {
+        font-size: .75rem;
     }
 
     .skills {
@@ -203,5 +224,9 @@ button:hover {
 
     h2 {
         font-size: 1rem;
+    }
+
+    .logo {
+        display: none;
     }
 }
