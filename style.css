@@ -179,7 +179,7 @@ button:hover {
     padding: 1rem;
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 650px) {
 
     * {
         overflow-x: hidden;
@@ -231,9 +231,7 @@ button:hover {
         flex-direction: column;
     }
 
-    h2 {
-        font-size: 1rem;
-    }
+   
 
     .logo {
         font-size: .75rem;
