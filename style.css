@@ -207,6 +207,10 @@ button:hover {
     padding: 1rem;
 }
 
+.case-desc {
+    font-size: 1rem;
+}
+
 @media only screen and (max-width: 650px) {
 
     * {
