@@ -55,8 +55,8 @@ a{
 
 .section {
     height: fit-content;
-    padding-bottom: 1rem;
-    padding-top: .5rem;
+    padding-bottom: 0rem;
+    padding-top: 0rem;
     padding: 4rem;
     align-items: center;
     display: flex;
@@ -65,7 +65,7 @@ a{
 
 .section-cs {
     height: fit-content;
-    padding: 3rem;
+    padding: 1rem;
     align-items: center;
     display: flex;
 }
@@ -211,7 +211,7 @@ button:hover {
     font-size: 1rem;
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 850px) {
 
     * {
         overflow-x: hidden;
@@ -244,6 +244,10 @@ button:hover {
     
     }
 
+    .reverse {
+        flex-direction: column-reverse;
+    }
+
     .hide-mobile {
         display: none;
     }
@@ -256,7 +260,9 @@ button:hover {
         width: 100%;
     }
 
-    
+    .half-img-mobile {
+        width: 50%;
+    }
 
     .skills {
         flex-direction: column;
