@@ -76,6 +76,7 @@ a{
     transition: .3s;
     border-radius: 25px;
     border: transparent 2px solid;
+    padding: 3rem;
 }
 
 .case {
